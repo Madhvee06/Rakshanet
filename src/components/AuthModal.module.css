@@ -1,0 +1,31 @@
+/* AuthModal.module.css */
+
+.errorMsg {
+  background: var(--red-bg);
+  border: 1px solid rgba(255, 59, 78, 0.3);
+  color: var(--red);
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  font-size: 12px;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.toggleRow {
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 14px;
+  margin-bottom: 2px;
+}
+
+.toggleBtn {
+  background: none;
+  border: none;
+  color: var(--blue);
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+.toggleBtn:hover { color: #7ac0ff; }

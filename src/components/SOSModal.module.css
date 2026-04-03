@@ -1,0 +1,59 @@
+/* SOSModal.module.css */
+
+.locationBox {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(255, 59, 78, 0.25);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--green);
+  margin: 12px 0 18px;
+  line-height: 1.8;
+}
+
+.volSection {
+  margin-bottom: 16px;
+}
+
+.volTitle {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.noVol {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.volItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+.volItem strong {
+  flex: 1;
+}
+
+.dist {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+.cancelBtn {
+  border-color: var(--green) !important;
+  color: var(--green) !important;
+  margin-top: 6px !important;
+}

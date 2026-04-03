@@ -1,0 +1,9 @@
+/* App.module.css */
+
+.app {
+  display: grid;
+  grid-template-rows: 52px 1fr;
+  height: 100vh;
+  overflow: hidden;
+  background: var(--bg-primary);
+}

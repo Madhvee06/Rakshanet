@@ -1,0 +1,22 @@
+/* ReportForm.module.css */
+
+.mapHint {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  margin: -8px 0 14px;
+  padding: 6px 10px;
+  background: var(--bg-secondary);
+  border-radius: 6px;
+  border: 1px dashed var(--border-bright);
+}
+
+.errorMsg {
+  background: var(--red-bg);
+  border: 1px solid rgba(255, 59, 78, 0.3);
+  color: var(--red);
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  font-size: 12px;
+  margin-bottom: 10px;
+}
